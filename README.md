@@ -57,6 +57,17 @@ Type a width:
 rectangle with length 2.6, width 2.6
 rectangle with length 10.4, width 28.9
 ```
+## Problem 3
+Write code which asks for a side length from the user and creates an equilateral triangle and square with that length. The output that you are printing must utilize the `toString` method inside `RegularPolygon` Class.
+
+Sample run:
+```
+Type a side length:
+7.5
+equilateral triangle with side length 7.5
+square with side length 7.5
+```
+Hint: Make sure you use the right data types when taking user input.
 
 ## Sample Solutions
 ```java
@@ -99,6 +110,21 @@ public class Prob1
 		r2 = new Rectangle(len, wid);
 
 		System.out.println(r1.toString() + "\n" + r2.toString());
+
+		// Part C
+		System.out.println("\nProblem 3\n");
+
+		double side;
+		RegularPolygon rp1;
+		RegularPolygon rp2;
+		
+		System.out.println("Type a side length:");
+		side = sc.nextDouble();
+
+		rp1 = new RegularPolygon(side);
+		rp2 = new RegularPolygon(4, side);
+
+		System.out.println(rp1.toString() + "\n" + rp2.toString());
 	}
 }
 ```
