@@ -57,3 +57,48 @@ Type a width:
 rectangle with length 2.6, width 2.6
 rectangle with length 10.4, width 28.9
 ```
+
+## Sample Solutions
+```java
+import java.util.Scanner;
+
+public class Prob1
+{
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		// Part A
+		System.out.println("Problem 1\n");
+		
+		Circle c1 = new Circle(10.1);
+		Circle c2 = new Circle(14.0);
+		Circle c3 = new Circle(20.5);
+
+		System.out.println(c1.toString() + "\n" + c2.toString() + "\n" + c3.toString());
+
+		// Part B
+		System.out.println("\nProblem 2\n");
+
+		double lenWid;
+		double len;
+		double wid;
+		Rectangle r1;
+		Rectangle r2;
+
+		System.out.println("Type a number for length and width:");
+		lenWid = sc.nextDouble();
+		
+		System.out.println("Type a length:");
+		len = sc.nextDouble();
+
+		System.out.println("Type a width:");
+		wid = sc.nextDouble();
+
+		r1 = new Rectangle(lenWid);
+		r2 = new Rectangle(len, wid);
+
+		System.out.println(r1.toString() + "\n" + r2.toString());
+	}
+}
+```
