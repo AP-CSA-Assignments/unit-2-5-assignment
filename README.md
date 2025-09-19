@@ -24,6 +24,8 @@ java Main.java
 After you compile the shape classes, you only need to compile and run `Main.java` as usual.
 
 ## Problem 1
+[Look at the documentation for the `Circle` class here.](https://coderunner.projectstem.org/docs/shapes/index.html)
+
 Write code which creates three circles with radius 10.1, 14 and 20.5 respectively. The code should then print the three circles, one on each line, in the order given (i.e. the one with radius 10.1 first and the one with radius 20.5 last). To print the results, use the `toString()` method for the `Circle` class.
 
 For example
@@ -44,6 +46,8 @@ circle with radius 20.5
 ```
 
 ## Problem 2
+[Look at the documentation for the `Rectangle` class here.](https://coderunner.projectstem.org/docs/shapes/index.html)
+
 Write code which takes three decimal inputs from the user, creates a rectangle with length and width equal to the first input and a rectangle with length and width equal to the second and third input respectively, then prints both of these shapes. To print the results, use the `toString()` method for the `Rectangle` class. 
 
 Sample run:
@@ -58,6 +62,8 @@ rectangle with length 2.6, width 2.6
 rectangle with length 10.4, width 28.9
 ```
 ## Problem 3
+[Look at the documentation for the `RegularPolygon` class here.](https://coderunner.projectstem.org/docs/shapes/index.html)
+
 Write code which asks for a side length from the user and creates an equilateral triangle and square with that length. The output that you are printing must utilize the `toString` method inside `RegularPolygon` Class.
 
 Sample run:
